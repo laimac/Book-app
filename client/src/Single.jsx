@@ -11,4 +11,4 @@ function Single() {
   );
 }
 
-export default App;
+export default Single;

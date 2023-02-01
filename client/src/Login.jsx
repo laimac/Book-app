@@ -11,4 +11,4 @@ function Login() {
   );
 }
 
-export default App;
+export default Login;

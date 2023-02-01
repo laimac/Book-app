@@ -11,4 +11,4 @@ function Write() {
   );
 }
 
-export default App;
+export default Write;
