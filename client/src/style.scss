@@ -107,6 +107,26 @@ span{
         }
     }
 }
+    //Footer
+
+    footer{
+        margin-top: 100px;
+        padding: 20px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 11px;
+        font-family: monospace;
+
+        a{
+            color:darkblue;
+            text-decoration: none;
+
+            &:hover{
+                font-weight: bold;
+            }
+        }
+    }
 
     }
 }

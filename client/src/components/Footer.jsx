@@ -2,9 +2,14 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+<footer>
+    <span>
+        This project was coded by 
+        Laima Ciselonoka and is  
+        <a href="https://github.com/laimac/Book-app"> open-sourced </a> 
+        on Github
+    </span>
+</footer>
   )
 }
 
