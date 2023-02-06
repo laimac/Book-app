@@ -2,7 +2,16 @@ $lightGreen: #b9e7e7;
 
 
 .app{
+    display:flex;
+    justify-content: center;
+
     .container{
+width: 600px;
+
+.link{
+    text-decoration: none;
+    color:inherit;
+}
 
 //login & register
 .auth{
@@ -50,6 +59,51 @@ $lightGreen: #b9e7e7;
         span{
             font-size: smaller;
             text-align: center;
+        }
+    }
+}
+
+//navbar
+.navbar{
+    .container{
+        padding:10px 0px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    .logo{
+        .img{
+color:aqua;            }
+         }
+    .links{
+display:flex;
+gap: 10px;
+align-items: center;
+h6{
+    font-size: 16px;
+    font-weight: 800;
+}
+span{
+    cursor:pointer;   
+}
+
+.write{
+    background-color: $lightGreen;
+    width:50px;
+    height: 50px;
+    border-radius: 46%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+
+    &:hover{
+        width:48px;
+        height:48px;
+        color:teal;
+        background-color: white;
+        border: 1px solid teal;
+    }
+}
         }
     }
 }
