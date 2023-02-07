@@ -1,14 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Logo from "../img/book.png";
-
+import {GiBookCover} from "react-icons/gi";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container">
         <div className="logo">
-            <img src={Logo} alt=""width="50"/>
+            <GiBookCover size={36} />
         </div>
         <div className="links">
             <Link className='link' to="/?cat=art">

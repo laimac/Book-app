@@ -1,12 +1,14 @@
 $lightGreen: #b9e7e7;
-
+$lightGray: rgb(234, 233, 233);
 
 .app{
     display:flex;
     justify-content: center;
+    background-color: rgb(28, 28, 28);
+
 
     .container{
-width: 600px;
+width: 1024px;
 
 .link{
     text-decoration: none;
@@ -70,14 +72,16 @@ width: 600px;
         display:flex;
         align-items: center;
         justify-content: space-between;
-    .logo{
-        .img{
-color:aqua;            }
-         }
+
+        .logo{
+            color:$lightGray;
+            width:20px;
+        }
     .links{
 display:flex;
 gap: 10px;
 align-items: center;
+color: $lightGray;
 h6{
     font-size: 16px;
     font-weight: 800;
@@ -87,7 +91,6 @@ span{
 }
 
 .write{
-    background-color: $lightGreen;
     width:50px;
     height: 50px;
     border-radius: 46%;
@@ -99,9 +102,8 @@ span{
     &:hover{
         width:48px;
         height:48px;
-        color:teal;
-        background-color: white;
-        border: 1px solid teal;
+        font-size: larger;
+        color: white;
     }
 }
         }
@@ -112,21 +114,19 @@ span{
     footer{
         margin-top: 100px;
         padding: 20px;
-        display:flex;
-        align-items: center;
-        justify-content: space-between;
-        font-size: 11px;
+        font-size: 12px;
+        text-align: center;
         font-family: monospace;
+        color: $lightGray;
 
         a{
-            color:darkblue;
+            color:rgb(227, 227, 239);
             text-decoration: none;
 
             &:hover{
-                font-weight: bold;
-            }
+            text-shadow:2px 1px 15px rgb(151, 151, 151);
         }
-    }
+    }}
 
     //homepage
 .home{
@@ -138,7 +138,9 @@ span{
     row-gap: 70px;
 
      .post{
-text-align: center;       
+text-align: center;   
+padding-top: 15px;
+    
      .img{
             img{
                 width: 50%;
@@ -146,10 +148,14 @@ text-align: center;
                 object-fit: cover;
             }
         }
-
         .content{
+            color: $lightGray;
         }
+     &:hover{
+background-image:radial-gradient(#383838,#1C1C1C );
+cursor: pointer;
      }
+    }
 }}
 
     }

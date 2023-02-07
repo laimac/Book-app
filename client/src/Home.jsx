@@ -51,9 +51,6 @@ function Home() {
           <p>
             {post.desc}
           </p>
-          <button>
-            See more
-          </button>
       </div>
     </div>
   ))}
