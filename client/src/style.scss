@@ -22,11 +22,10 @@ width: 1024px;
     align-items: center;
     justify-content: center;
     height:100vh;
-    background-color: $lightGreen;
 
     h1{
         font-size: 20px;
-        color:teal;
+        color:$lightGray;
         margin-bottom: 20px;
     }
 
@@ -47,9 +46,13 @@ width: 1024px;
         button{
             padding: 10px;
             border:none;
-            background-color: teal;
+            background-color:$lightGray;
             cursor: pointer;
-            color:white;
+            color:black;
+
+            &:hover{
+                background-color: #b9b4b4;
+            }
         }
 
         p{
@@ -102,7 +105,7 @@ span{
     &:hover{
         width:48px;
         height:48px;
-        font-size: larger;
+        transform:scale(1.1);
         color: white;
     }
 }
@@ -154,6 +157,7 @@ padding-top: 15px;
      &:hover{
 background-image:radial-gradient(#383838,#1C1C1C );
 cursor: pointer;
+transform:scale(1.1);
      }
     }
 }}
